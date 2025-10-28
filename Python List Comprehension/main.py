@@ -36,6 +36,9 @@ Double = [i * 2 for i in li]
 # Join 2 Lists-----------------
 num1 = [1, 2, 4]
 num2 = [3, 5, 6]
+# print(num1[-1]) #access the last item in the list
 # num3 = num1 + num2
 num1.extend(num2) # combine 2 list in 1
-print(num1)
+# print(num1)
+
+# List Excersize----------------------
