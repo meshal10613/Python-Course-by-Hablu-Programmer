@@ -8,8 +8,22 @@ li = [
 # print(li[0][1])
 
 # Tuples-----------------------
-myTupple = ("Apple", "Banana", "Cherry", "Jackfruit")
-apple = myTupple[0] #access tuple with index
-jackfruit = myTupple[-1] #access the last item of the tuple with -index
-rangeAccess = myTupple[1: 3] # that means index 1 to index 3 - 1 = 2
-print(rangeAccess)
+myTuple = ("Apple", "Banana", "Cherry", "Jackfruit")
+apple = myTuple[0] #access tuple with index
+jackfruit = myTuple[-1] #access the last item of the tuple with -index
+rangeAccess = myTuple[1: 3] # that means index 1 to index 3 - 1 = 2
+# print(rangeAccess)
+
+
+# Update Tuples----------------
+# 1st Convert into a list
+thisTuple = (1, 2, 3, 4)
+y = list(thisTuple)
+y.append(5)
+newTuple = tuple(y)
+# print(newTuple)
+
+# 2nd add tuple to a tuple
+anotherTuple = (5,)
+thisTuple += anotherTuple
+print(thisTuple)
