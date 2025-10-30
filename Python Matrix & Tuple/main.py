@@ -26,4 +26,10 @@ newTuple = tuple(y)
 # 2nd add tuple to a tuple
 anotherTuple = (5,)
 thisTuple += anotherTuple
-print(thisTuple)
+# print(thisTuple)
+
+# Unpack Tuple-----------------
+fruits = ("Apple", "Banana", "Cherry")
+(a, b, c) = fruits # need to structure all
+(apple, *others) = fruits # if use *,Remaining all items will be in there
+print(others) 
